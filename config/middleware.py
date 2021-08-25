@@ -21,7 +21,3 @@ class MaintenanceModeMiddleware:
         response = self.get_response(request)
 
         return response
-
-
-# query = request.META.get('QUERY_STRING', "")
-# request.session['bypass_maintenance']=False

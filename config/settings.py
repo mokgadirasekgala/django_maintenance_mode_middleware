@@ -128,7 +128,6 @@ STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-
 MAINTENANCE_MODE = int(os.environ.get("MAINTENANCE_MODE", 0))
 MAINTENANCE_BYPASS_QUERY = os.environ.get("MAINTENANCE_BYPASS_QUERY")
 
